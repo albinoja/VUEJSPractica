@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    background-color: aqua;
+    color:white;
+    padding: 8px, 8px;
+    border-radius: 4px;
+    border: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+    padding: 8px, 8px;
+    border-radius: 4px;
+    border: 4px;
+    cursor: pointer;
+}
